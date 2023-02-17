@@ -38,7 +38,7 @@ if(isset($_GET['url']) && $_GET['url'] != null){
                     <i class="ace-icon fa fa-home home-icon"></i>
                     <a href="unsafere.php.php"></a>
                 </li>
-                <li class="active">不安全的url跳转</li>
+                <li class="active">不安全url跳转</li>
             </ul>
             <a href="#" style="float:right" data-container="body" data-toggle="popover" data-placement="bottom" title="tips(再点一下关闭)"
                data-content="仔细看下每个请求的内容">
@@ -52,10 +52,10 @@ if(isset($_GET['url']) && $_GET['url'] != null){
                 我想问一下,你到底是下面哪一种类型的人:<br>
                 <pre>
 
-                <a href="urlredirect.php">像春天的花一样的少年</a>
-                <a href="urlredirect.php">像夏天的雨一样的少年</a>
-                <a href="urlredirect.php?url=unsafere.php">像秋天的风一样的少年</a>
-                <a href="urlredirect.php?url=i">我就是我,放荡不羁的我</a>
+                <a href="urlredirect.php">搬砖一样的少年</a>
+                <a href="urlredirect.php">呆板一样的少年</a>
+                <a href="urlredirect.php?url=unsafere.php">沙雕一样的少年</a>
+                <a href="urlredirect.php?url=i">我就是我,不一样的我</a>
                     </pre>
                 <?php echo $html;?>
 

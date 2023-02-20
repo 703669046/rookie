@@ -37,20 +37,9 @@ if(!@mysqli_connect(DBHOST,DBUSER,DBPW,DBNAME)){
         <p class="p2">
         <h2 class="v_title">rookie上的漏洞类型列表如下：</h2>
         <ul class="vul_list_info">
-            <li>XSS(跨站脚本漏洞)</li>
-            <li>CSRF(跨站请求伪造)</li>
-            <li>SQL-Inject(SQL注入漏洞)</li>
-            <li>RCE(远程命令/代码执行)</li>
-            <li>Files Inclusion(文件包含漏洞)</li>
-            <li>Unsafe file downloads(不安全的文件下载)</li>
+            <li>XSS(前端渗透)</li>
+            <li>SQL-Inject(注入全方位利用)</li>
             <li>Unsafe file uploads(不安全的文件上传)</li>
-            <li>Over Permisson(越权漏洞)</li>
-            <li>../../../(目录遍历)</li>
-            <li>I can see your ABC(敏感信息泄露)</li>
-            <li>PHP反序列化漏洞</li>
-            <li>XXE(XML External Entity attack)</li>
-            <li>不安全的URL重定向</li>
-            <li>SSRF(Server-Side Request Forgery)</li>
             <li>后续会持续更新一些新的漏洞进来,也欢迎你提交漏洞案例给我,最新版本请关注<a href="https://github.com/703669046">rookie</a></li>
         </ul>
         </p>

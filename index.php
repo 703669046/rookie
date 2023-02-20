@@ -37,7 +37,6 @@ if(!@mysqli_connect(DBHOST,DBUSER,DBPW,DBNAME)){
         <p class="p2">
         <h2 class="v_title">rookie上的漏洞类型列表如下：</h2>
         <ul class="vul_list_info">
-            <li>Burt Force(暴力破解漏洞)</li>
             <li>XSS(跨站脚本漏洞)</li>
             <li>CSRF(跨站请求伪造)</li>
             <li>SQL-Inject(SQL注入漏洞)</li>
@@ -52,8 +51,6 @@ if(!@mysqli_connect(DBHOST,DBUSER,DBPW,DBNAME)){
             <li>XXE(XML External Entity attack)</li>
             <li>不安全的URL重定向</li>
             <li>SSRF(Server-Side Request Forgery)</li>
-            <li>More...(找找看?..有彩蛋!)</li>
-            <li>管理工具里面提供了一个简易的xss管理后台,供你测试钓鱼和捞cookie~</li>
             <li>后续会持续更新一些新的漏洞进来,也欢迎你提交漏洞案例给我,最新版本请关注<a href="https://github.com/703669046">rookie</a></li>
         </ul>
         </p>

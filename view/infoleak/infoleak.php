@@ -28,10 +28,10 @@ include_once $ROOKIE_ROOT_DIR.'header.php';
         </div>
         <div class="page-content">
 
-            <div id="vul_info">
+            <div id="view_info">
                 <dl>
-                    <dt class="vul_title">敏感信息泄露概述</dt>
-                    <dd class="vul_detail">
+                    <dt class="view_title">敏感信息泄露概述</dt>
+                    <dd class="view_detail">
                         由于后台人员的疏忽或者不当的设计，导致不应该被前端用户看到的数据被轻易的访问到。
                         比如：<br />
                         ---通过访问url下的目录，可以直接列出目录下的文件列表;<br />
@@ -40,12 +40,12 @@ include_once $ROOKIE_ROOT_DIR.'header.php';
 
 
                     </dd>
-                    <dd class="vul_detail">
+                    <dd class="view_detail">
                         类似以上这些情况，我们成为敏感信息泄露。敏感信息泄露虽然一直被评为危害比较低的漏洞，但这些敏感信息往往给攻击着实施进一步的攻击提供很大的帮助,甚至“离谱”的敏感信息泄露也会直接造成严重的损失。
                         因此,在web应用的开发上，除了要进行安全的代码编写，也需要注意对敏感信息的合理处理。
 
                     </dd>
-                    <dd class="vul_detail_1">
+                    <dd class="view_detail_1">
                         你可以通过“i can see your abc”对应的测试栏目，来进一步的了解该漏洞。
                     </dd>
                 </dl>

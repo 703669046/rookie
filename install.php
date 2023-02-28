@@ -51,7 +51,7 @@ if(isset($_POST['submit'])){
     }
 
     //往users表里面插入默认的数据
-    $insert_users = "insert into `users` (`id`,`username`,`password`,`level`) values (1,'admin',md5('123456'),1),(2,'rookie',md5('000000'),2),(3,'test',md5('abc123'),3)";
+    $insert_users = "insert into `users` (`id`,`username`,`password`,`level`) values (1,'admin',md5('aa123456'),1),(2,'rookie',md5('admin123'),2),(3,'test',md5('abc123'),3)";
 
     if(!@mysqli_query($link,$insert_users)){
         echo $link->error;
@@ -105,13 +105,13 @@ if(isset($_POST['submit'])){
 
     $insert_member=
         "INSERT INTO `member` (`id`, `username`, `pw`, `sex`, `phonenum`, `address`, `email`) VALUES
-    (1, 'vince', md5('123456'), 'boy', '18626545453', 'chain', 'vince@rookie.com'),
-    (2, 'allen', md5('123456'), 'boy', '13676767767', 'nba 76', 'allen@rookie.com'),
-    (3, 'kobe', md5('123456'), 'boy', '15988767673', 'nba lakes', 'kobe@rookie.com'),
-    (4, 'grady', md5('123456'), 'boy', '13676765545', 'nba hs', 'grady@rookie.com'),
-    (5, 'kevin', md5('123456'), 'boy', '13677676754', 'Oklahoma City Thunder', 'kevin@rookie.com'),
-    (6, 'lucy', md5('123456'), 'girl', '12345678922', 'usa', 'lucy@rookie.com'),
-    (7, 'lili', md5('123456'), 'girl', '18656565545', 'usa', 'lili@rookie.com')";
+    (1, 'aa1', md5('123456'), 'boy',  '18611114536', 'nanchang', 'aa1@rookie.com'),
+    (2, 'bb2', md5('123456'), 'girl', '13622227767', 'beijing', 'bb2@rookie.com'),
+    (3, 'cc3', md5('123456'), 'boy', '15933337673', 'shanghai', 'cc3@rookie.com'),
+    (4, 'dd4', md5('123456'), 'boy', '13644445545', 'shenzhen', 'dd4@rookie.com'),
+    (5, 'ee5', md5('123456'), 'boy', '13675555754', 'guangzhou', 'ee5@rookie.com'),
+    (6, 'ff6', md5('123456'), 'girl', '13825689622', 'hangzhou', 'ff6@rookie.com'),
+    (7, 'gg7', md5('123456'), 'girl', '18668696245', 'shenyangs', 'gg7@rookie.com')";
 
     if(!@mysqli_query($link,$insert_member)){
         exit('创建member数据失败，请仔细检查当前用户是否有操作权限');
@@ -161,9 +161,9 @@ if(isset($_POST['submit'])){
         <p class="main_title">Setup guide:</p>
         <p class="main_title">第0步：请提前安装“mysql+php+中间件”的环境;</p>
         <p class="main_title">第1步：请根据实际环境修改inc/config.inc.php文件里面的参数;</p>
-        <p class="main_title">第2步：点击“安装/初始化”按钮;</p>
+        <p class="main_title">第2步：点击“数据库初始化”按钮;</p>
         <form method="post">
-            <input type="submit" name="submit" value="安装/初始化"/>
+            <input type="submit" name="submit" value="数据库初始化"/>
         </form>
 
     </div>

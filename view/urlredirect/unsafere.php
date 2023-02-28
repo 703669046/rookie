@@ -32,7 +32,7 @@ include_once $ROOKIE_ROOT_DIR.'header.php';
         </div>
         <div class="page-content">
 
-            <div class="vul info">
+            <div class="view info">
                 <p>不安全的url跳转</p><br>
                不安全的url跳转问题可能发生在一切执行了url地址跳转的地方。<br>
                 如果后端采用了前端传进来的(可能是用户传参,或者之前预埋在前端页面的url地址)参数作为了跳转的目的地,而又没有做判断的话<br>

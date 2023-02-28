@@ -32,7 +32,7 @@ include_once $ROOKIE_ROOT_DIR.'header.php';
         </div>
         <div class="page-content">
 
-            <div class="vul info">
+            <div class="view info">
                 XXE -"xml external entity injection"<br>
                 既"xml外部实体注入漏洞"。<br>
                 概括一下就是"攻击者通过向服务器注入指定的xml实体内容,从而让服务器按照指定的配置进行执行,导致问题"<br>

@@ -47,7 +47,7 @@ if(isset($_GET['url']) && $_GET['url'] != null){
         </div>
         <div class="page-content">
 
-            <div class="vul info">
+            <div class="view info">
 
                 我想问一下,你到底是下面哪一种类型的人:<br>
                 <pre>

@@ -60,7 +60,7 @@ if(isset($_GET['url']) && $_GET['url'] != null){
         </div>
         <div class="page-content">
 
-         <a href="ssrf_curl.php?url=<?php echo 'http://127.0.0.1/'.$RD.'/vul/ssrf/ssrf_info/info1.php';?>">累了吧,来读一首诗吧</a>
+         <a href="ssrf_curl.php?url=<?php echo 'http://127.0.0.1/'.$RD.'/view/ssrf/ssrf_info/info1.php';?>">累了吧,来读一首诗吧</a>
 
         </div><!-- /.page-content -->
     </div>

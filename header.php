@@ -140,7 +140,7 @@ if (!isset($ACTIVE)) {
 
                     <ul class="submenu">
                         <li class="<?php echo $ACTIVE[2]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/burteforce/burteforce.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/burteforce/burteforce.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 概述
                             </a>
@@ -148,7 +148,7 @@ if (!isset($ACTIVE)) {
                             <b class="arrow"></b>
                         </li>
                         <li class="<?php echo $ACTIVE[3]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/burteforce/bf_form.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/burteforce/bf_form.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 基于表单的暴力破解
                             </a>
@@ -157,7 +157,7 @@ if (!isset($ACTIVE)) {
                         </li>
 
                         <li class="<?php echo $ACTIVE[4]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/burteforce/bf_server.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/burteforce/bf_server.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 验证码绕过(on server)
                             </a>
@@ -166,7 +166,7 @@ if (!isset($ACTIVE)) {
                         </li>
 
                         <li class="<?php echo $ACTIVE[5]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/burteforce/bf_client.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/burteforce/bf_client.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 验证码绕过(on client)
                             </a>
@@ -189,7 +189,7 @@ if (!isset($ACTIVE)) {
                     <ul class="submenu">
 
                         <li class="<?php echo $ACTIVE[8]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/xss/xss.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/xss/xss.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 概述
                             </a>
@@ -198,7 +198,7 @@ if (!isset($ACTIVE)) {
 
 
                         <li class="<?php echo $ACTIVE[9]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/xss/xss_reflected_get.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/xss/xss_reflected_get.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 反射型xss(get)
                             </a>
@@ -208,7 +208,7 @@ if (!isset($ACTIVE)) {
 
 
                         <li class="<?php echo $ACTIVE[10]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/xss/xsspost/post_login.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/xss/xsspost/post_login.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 反射型xss(post)
                             </a>
@@ -217,7 +217,7 @@ if (!isset($ACTIVE)) {
 
 
                         <li class="<?php echo $ACTIVE[11]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/xss/xss_stored.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/xss/xss_stored.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 存储型xss
                             </a>
@@ -226,7 +226,7 @@ if (!isset($ACTIVE)) {
 
 
                         <li class="<?php echo $ACTIVE[12]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/xss/xss_dom.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/xss/xss_dom.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 DOM型xss
                             </a>
@@ -234,7 +234,7 @@ if (!isset($ACTIVE)) {
                         </li>
 
                         <li class="<?php echo $ACTIVE[12]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/xss/xss_dom_x.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/xss/xss_dom_x.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 DOM型xss-x
                             </a>
@@ -258,7 +258,7 @@ if (!isset($ACTIVE)) {
                     <ul class="submenu">
 
                         <li class="<?php echo $ACTIVE[36]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/sqli/sqli.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/sqli/sqli.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 概述
                             </a>
@@ -266,7 +266,7 @@ if (!isset($ACTIVE)) {
                         </li>
 
                         <li class="<?php echo $ACTIVE[37]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/sqli/sqli_id.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/sqli/sqli_id.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 数字型注入(post)
                             </a>
@@ -274,7 +274,7 @@ if (!isset($ACTIVE)) {
                         </li>
 
                         <li class="<?php echo $ACTIVE[38]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/sqli/sqli_str.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/sqli/sqli_str.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 字符型注入(get)
                             </a>
@@ -282,7 +282,7 @@ if (!isset($ACTIVE)) {
                         </li>
 
                         <li class="<?php echo $ACTIVE[39]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/sqli/sqli_search.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/sqli/sqli_search.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 搜索型注入
                             </a>
@@ -290,7 +290,7 @@ if (!isset($ACTIVE)) {
                         </li>
 
                         <li class="<?php echo $ACTIVE[40]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/sqli/sqli_x.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/sqli/sqli_x.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 xx型注入
                             </a>
@@ -298,7 +298,7 @@ if (!isset($ACTIVE)) {
                         </li>
 
                         <li class="<?php echo $ACTIVE[41]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/sqli/sqli_iu/sqli_login.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/sqli/sqli_iu/sqli_login.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 "insert/update"注入
                             </a>
@@ -306,7 +306,7 @@ if (!isset($ACTIVE)) {
                         </li>
 
                         <li class="<?php echo $ACTIVE[42]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/sqli/sqli_del.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/sqli/sqli_del.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 "delete"注入
                             </a>
@@ -315,7 +315,7 @@ if (!isset($ACTIVE)) {
 
 
                         <li class="<?php echo $ACTIVE[43]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/sqli/sqli_header/sqli_header_login.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/sqli/sqli_header/sqli_header_login.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 "http header"注入
                             </a>
@@ -324,7 +324,7 @@ if (!isset($ACTIVE)) {
 
 
                         <li class="<?php echo $ACTIVE[44]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/sqli/sqli_blind_b.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/sqli/sqli_blind_b.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 盲注(base on boolian)
                             </a>
@@ -332,7 +332,7 @@ if (!isset($ACTIVE)) {
                         </li>
 
                         <li class="<?php echo $ACTIVE[45]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/sqli/sqli_blind_t.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/sqli/sqli_blind_t.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 盲注(base on time)
                             </a>
@@ -340,7 +340,7 @@ if (!isset($ACTIVE)) {
                         </li>
 
                         <li class="<?php echo $ACTIVE[46]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/sqli/sqli_widebyte.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/sqli/sqli_widebyte.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 宽字节注入
                             </a>
@@ -365,7 +365,7 @@ if (!isset($ACTIVE)) {
                     <ul class="submenu">
 
                         <li class="<?php echo $ACTIVE[66]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/unsafeupload/upload.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/unsafeupload/upload.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 概述
                             </a>
@@ -374,7 +374,7 @@ if (!isset($ACTIVE)) {
 
 
                         <li class="<?php echo $ACTIVE[67]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/unsafeupload/clientcheck.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/unsafeupload/clientcheck.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 client check
                             </a>
@@ -382,7 +382,7 @@ if (!isset($ACTIVE)) {
                         </li>
 
                         <li class="<?php echo $ACTIVE[68]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/unsafeupload/servercheck.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/unsafeupload/servercheck.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 MIME type
                             </a>
@@ -390,7 +390,7 @@ if (!isset($ACTIVE)) {
                         </li>
 
                         <li class="<?php echo $ACTIVE[69]; ?>">
-                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>vul/unsafeupload/getimagesize.php">
+                            <a href="<?php echo $ROOKIE_ROOT_DIR; ?>view/unsafeupload/getimagesize.php">
                                 <i class="menu-icon fa fa-caret-right"></i>
                                 getimagesize
                             </a>

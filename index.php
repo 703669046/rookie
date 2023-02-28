@@ -36,7 +36,7 @@ if(!@mysqli_connect(DBHOST,DBUSER,DBPW,DBNAME)){
         </p>
         <p class="p2">
         <h2 class="v_title">rookie上的漏洞类型列表如下：</h2>
-        <ul class="vul_list_info">
+        <ul class="view_list_info">
             <li>XSS(前端渗透)</li>
             <li>SQL-Inject(注入全方位利用)</li>
             <li>Unsafe file uploads(不安全的文件上传)</li>
